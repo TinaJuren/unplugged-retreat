@@ -96,6 +96,56 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   
+   /* Basic Header - Footer Styles */
+   
+header,
+footer {
+	display: flex;
+	justify-content: center; /* Aligns the logo, icons and menu at the center of the container */
+	align-items: center; /* Center the alignment for the items of the flexible element (header or footer) */
+	flex-flow: row wrap;
+}
+
+header .content-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+footer .social-icons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+footer .social-icons p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer .social {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* Mobile styles - Homepage */
+
 
 
 
